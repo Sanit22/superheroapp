@@ -1,0 +1,53 @@
+body{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10vh;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+    text-shadow: 1px 1px;
+    line-height: 4vh;
+}
+
+#fav-sh-list{
+    height: 60vh;
+    overflow: scroll;
+    width: 45vw;
+    margin: auto;
+    margin-top: 7vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px grey, -2px -2px 3px grey ;
+}
+
+.fav-box{
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 10px;
+    font-family: 'bangers';
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    border-bottom: 3px groove white;
+}
+
+.remove-sh{
+    font-size: 1.5rem;
+}
+
+.remove-sh:hover{
+    cursor: pointer;
+    text-shadow: 0.5px 0px 1px ;
+}
+
+#no-favs{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 45%;
+    font-family: 'bangers';
+    letter-spacing: 3px;
+}

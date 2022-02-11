@@ -1,0 +1,94 @@
+body{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-family: 'Bangers';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+#superhero-details{
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#superhero-img{
+    margin-left: 15vw;
+    height: 60vh;
+    width: 30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:1px solid rgb(5, 5, 5);
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px grey, -2px -2px 3px grey ;
+}
+
+#hero-text-info{
+    border: 2px solid black;
+    margin-left: 10vw;
+    width: 35vw;
+    height: 70vh;
+    overflow: scroll;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px grey, -2px -2px 3px grey ;
+}
+
+.attributes-values{
+    background-color: chocolate;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin:10px;
+    box-shadow: 2px 2px 3px grey, -2px -2px 3px grey ;
+}
+
+.values{
+    margin-left: 15px;
+}
+
+#hero-powerstats{   
+    height: auto;
+    width: 100%;
+}
+
+.info-headings{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Bangers';
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.info-layout{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#hero-biography{
+    height: 30vh;
+    margin-top: 20px;
+    width: 100%;
+    overflow: scroll;
+}
+
+#aliases-value{
+    display: flex;
+    height: auto;
+    flex-wrap: nowrap;
+}
